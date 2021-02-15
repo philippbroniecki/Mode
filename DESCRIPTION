@@ -1,0 +1,22 @@
+Package: mode
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Philipp",
+           family = "Broniecki",
+           role = c("aut", "cre"),
+           email = "philippbroniecki@gmail.com",
+           comment = c(ORCID = "0000-0001-9214-4404"))
+Description: What the package does (one paragraph).
+Depends:
+    R (>= 3.6)
+Imports:
+    magrittr (>= 2.0.1),
+Suggests:
+    rmarkdown,
+	R.rsp
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
